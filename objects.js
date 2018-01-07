@@ -8,7 +8,7 @@ function updatePlaylist(thePlaylist, artistName, songTitle) {
   return Object.assign({}, thePlaylist, { [artistName]: songTitle});
 }
 
-updatePlaylist(playlist, "artist4", "song4");
+updatePlaylist(playlist, "Phil Ochs", "song4");
 
 function removeFromPlaylist(thePlaylist, artistName) {
   delete thePlaylist[artistName];
